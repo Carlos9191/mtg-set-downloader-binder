@@ -1,5 +1,8 @@
 # MTG Set Scryfall Downloader
 
+4/9/25 Update: I changed the download format of the images to the PNG format with rounded corners. I set the "Card List" Folder to delete everything inside of it before adding new card images. I changed SSL verification to always true. I added the ability to type in the name of a card list txt file for getting images.
+The txt file must be in the same folder as the script. 
+
 This repository contains two Python scripts that allow you to download Magic: The Gathering card images from the Scryfall API using a specific set code. Additionally, it includes a script to generate a `.HTML` file for Binder.
 
 ## Scripts
